@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.3/socket.io.js"
+      integrity="sha512-iWPnCISAd/J+ZacwV2mbNLCaPGRrRo5OS81lKTVPtRg1wGTC20Cfmp5Us5RcbLv42QLdbAWl0MI57yox5VecQg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="shortcut icon" href="/icon.png" type="image/png" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Hack Tool</title>
+  </head>
+  <body>
+    <div class="controls">
+      <button class="control-btn" id="start-sending">Start</button>
+      <button class="control-btn" id="stop-sending">Stop</button>
+      <button class="control-btn" id="send-messages">Send 10 messages</button>
+    </div>
+
+    <div id="typing"></div>
+    <form id="form">
+      <input
+        type="text"
+        class="input"
+        id="input"
+        style="width: 400px"
+        placeholder="Write a message..."
+      />
+      <button type="submit" class="control-btn" id="send">Send</button>
+    </form>
+
+    <ul id="view"></ul>
+
+    <script src="/script.js"></script>
+  </body>
+</html>

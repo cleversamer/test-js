@@ -1,0 +1,36 @@
+.controls {
+  width: 100vw;
+  height: 50px;
+}
+
+.control-btn {
+  background-color: #fe7777;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition-duration: 176ms;
+  width: fit-content;
+}
+
+.control-btn:active {
+  transform: scale(0.97);
+}
+
+.input {
+  padding: 10px 20px;
+  outline: none;
+  border: 2px solid #fe7777;
+  border-radius: 5px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}

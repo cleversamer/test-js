@@ -225,9 +225,9 @@
       }
 
       function viewMessage(message = getMssg("test-message")) {
-        const { firstname, lastname } = message.sender[0];
-        const name = `${firstname} ${lastname}`;
-        const element = `<li>${name}: ${message.text}</li>`;
+        console.log("message", message);
+        const { nickname } = message.sender[0];
+        const element = `<li>${nickname}: ${message.text}</li>`;
         document.querySelector("#view").innerHTML += element;
       }
     </script>

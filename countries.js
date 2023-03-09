@@ -184,7 +184,6 @@ const countries = [
   { icc: "+508", name: "Saint Pierre and Miquelon" },
   { icc: "+64", name: "Pitcairn Islands" },
   { icc: "+1787", name: "Puerto Rico 1" },
-  { icc: "+1939", name: "Puerto Rico 2" },
   { icc: "+970", name: "Palestine" },
   { icc: "+351", name: "Portugal" },
   { icc: "+680", name: "Palau" },
